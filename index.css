@@ -331,18 +331,13 @@ margin-bottom: 25px; /* Відступ 25px після останнього ел
   object-fit: contain;
   object-position: center;
   width: 36px;
-  background-color: white; /* Залити фон білим кольором */
+  fill: #8B8B8B;
   border-radius: 50%; /* Кругла форма */
   height: 36px;
 }
-
-.faq-toggle path {
-  fill: #8B8B8B; /* Зробити стрілку чорного кольору */
-}
-
-.faq-toggle-active {
-  fill:#161916;
-  transform: rotate(180deg); /* Перевернути іконку */
+.btn-active {
+  fill: #161916;
+  transform: rotate(180deg);
 }
 .reviews-section {
   display: flex;
