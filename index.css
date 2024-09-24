@@ -331,10 +331,18 @@ margin-bottom: 25px; /* Відступ 25px після останнього ел
   object-fit: contain;
   object-position: center;
   width: 36px;
-  background-color: #161916;
-  border-radius: 50%;
+  background-color: white; /* Залити фон білим кольором */
+  border-radius: 50%; /* Кругла форма */
   height: 36px;
-  fill: #161916;
+}
+
+.faq-toggle path {
+  fill: #8B8B8B; /* Зробити стрілку чорного кольору */
+}
+
+.faq-toggle-active {
+  fill:#161916;
+  transform: rotate(180deg); /* Перевернути іконку */
 }
 .reviews-section {
   display: flex;
@@ -418,6 +426,14 @@ margin-bottom: 25px; /* Відступ 25px після останнього ел
   padding: 0 18px;
   background: none;
   cursor: pointer;
+}
+
+.disabled {
+  fill: #8b8b8b;
+}
+
+.active {
+  border-color: #161916;
 }
 .nav-arrow-icon {
   aspect-ratio: 1;
